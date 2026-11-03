@@ -9,5 +9,6 @@ My work involved electronics, Arduino-based control, CAD, testing, and helping t
 - [Project Strata on Instagram](https://www.instagram.com/dubaicollege_projectstrata/)
 - [Finished vehicle photo](photos/4x4-final-car.jpg)
 - [CAD and fabrication work](photos/project-strata-cad-work.jpg)
+- [Final team portfolio presentation](presentation/Project_Strata_4x4_Final_Portfolio.pptx)
 
 ![Finished red Project Strata 4x4 vehicle](photos/4x4-final-car.jpg)
