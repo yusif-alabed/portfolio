@@ -1,13 +1,13 @@
-# Project Strata — 4x4 in Schools
+# Project Strata - 4x4 in Schools
 
-Project Strata was Dubai College's team for the ADNOC Land Rover 4x4 in Schools UAE challenge. The work combined mechanical design, electronics, Arduino-based control, CAD, testing, and team presentation.
+Project Strata was my Dubai College team for the ADNOC Land Rover 4x4 in Schools UAE challenge. I worked as the electrical engineer and resource manager. We designed, built, tested, and programmed an autonomous vehicle for an off-road obstacle course.
+
+My work involved electronics, Arduino-based control, CAD, testing, and helping the team source components. We placed second in the Professional Category.
 
 ## Evidence
 
-- [Official Project Strata Instagram](https://www.instagram.com/dubaicollege_projectstrata/)
-- [Photo of the finished Project Strata vehicle](photos/project-strata-red-vehicle.jpg)
+- [Project Strata on Instagram](https://www.instagram.com/dubaicollege_projectstrata/)
+- [Finished vehicle photo](photos/project-strata-red-vehicle.jpg)
 - [CAD and fabrication work](photos/project-strata-cad-work.jpg)
 
 ![Finished red Project Strata 4x4 vehicle](photos/project-strata-red-vehicle.jpg)
-
-The original team deck, `4x4 Verbal Presentation Project Strata.pptx`, is listed in the team's Microsoft Teams files. It will be included here as soon as the school SharePoint download is available outside the browser sign-in flow.

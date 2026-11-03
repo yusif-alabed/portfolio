@@ -1,10 +1,8 @@
 # Projects and Technical Work
 
-This section contains practical engineering and design work with files that can be opened, inspected, or reused.
+These are practical engineering and design projects that I can show through files, photos, or code.
 
-| Project | Focus | Included evidence |
+| Project | What I worked on | Evidence |
 | --- | --- | --- |
-| [Project Strata - 4x4 in Schools](project-strata-4x4/) | Autonomous vehicle engineering | Vehicle and workshop photos; public team link |
-| [Swarm robotics CAD prototype](swarm-robotics/) | Parametric robotics design | OpenSCAD source and exported STL |
-
-Projects are included only where supporting code, design files, photos, or other inspectable evidence is available.
+| [Project Strata - 4x4 in Schools](project-strata-4x4/) | Designing, building, and programming an autonomous vehicle | Vehicle and workshop photos; public team link |
+| [Swarm robotics CAD prototype](swarm-robotics/) | Exploring small-scale robotics design | OpenSCAD source and exported STL |

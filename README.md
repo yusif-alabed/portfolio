@@ -1,33 +1,19 @@
-# Yusif Alabed | Engineering and Research Portfolio
+# Yusif Alabed | Portfolio
 
-Welcome. This public portfolio contains selected, inspectable evidence of my work in engineering, computer science, research, and independent academic study.
+I made this portfolio to show the work behind the activities on my CV. I am interested in electrical engineering, robotics, healthcare technology, and using research to solve practical problems.
 
-## Highlights
+## Start here
 
-| Area | Evidence | What to explore |
-| --- | --- | --- |
-| Clinical-data research | [Exploratory ESRD analysis](research/esrd-clinical-analysis/) | Paper, figures, reproducibility notebooks, and research abstract |
-| Engineering design | [Project Strata - 4x4 in Schools](projects/project-strata-4x4/) | Finished vehicle, CAD/fabrication evidence, and team project links |
-| Robotics | [Swarm robotics CAD prototype](projects/swarm-robotics/) | Parametric OpenSCAD source and printable STL model |
-| Independent academic work | [HPQ: AI in Jordanian agriculture](academic-work/hpq-agritech-jordan/) | Full submitted dissertation |
-| Science communication | [Breakthrough Junior Challenge](media/breakthrough-junior-challenge/) | Video submission: *Who leads a swarm of robots?* |
+| What I have worked on | Where to find it |
+| --- | --- |
+| Researching patterns in end-stage renal disease data | [ESRD clinical-data analysis](research/esrd-clinical-analysis/) |
+| Building and programming an autonomous 4x4 vehicle | [Project Strata - 4x4 in Schools](projects/project-strata-4x4/) |
+| Exploring robotics through CAD and 3D-printable design | [Swarm robotics CAD prototype](projects/swarm-robotics/) |
+| Investigating AI in agriculture for my HPQ | [AI in Jordanian agriculture](academic-work/hpq-agritech-jordan/) |
+| Explaining swarm robotics through video | [Breakthrough Junior Challenge](media/breakthrough-junior-challenge/) |
 
-## Portfolio map
+You can also view my [CV](profile/) or browse the [research](research/), [academic work](academic-work/), [projects](projects/), and [media](media/) sections.
 
-- [Profile and CV](profile/)
-- [Research](research/)
-- [Academic work](academic-work/)
-- [Projects and technical work](projects/)
-- [Media and public presentations](media/)
+I have only included work that I am comfortable sharing publicly: my own writing, code, figures, design files, project photos, and public links. I have left out private application material, confidential workplace material, and identifiable health information.
 
-## How to use this portfolio
-
-Each project directory begins with a short overview and links directly to its supporting files. Where work uses third-party or de-identified research data, the repository provides methods and code but does not republish restricted source data.
-
-## Public-portfolio policy
-
-This repository deliberately includes only material suitable for public review: my own writing, code, figures, design files, project documentation, and public links. It excludes application essays, recommendation letters, transcripts, identity documents, private correspondence, confidential workplace material, and identifiable health data.
-
-## Research note
-
-The ESRD project is an exploratory secondary analysis of a public, de-identified dataset. It is not clinical advice and does not provide a validated diagnostic tool.
+The ESRD analysis is exploratory work using a public, de-identified dataset. It is not medical advice or a diagnostic tool.

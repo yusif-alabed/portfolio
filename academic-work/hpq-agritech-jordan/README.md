@@ -1,9 +1,7 @@
 # AI in Jordanian Agriculture
 
-**Research question:** In what ways is the application of artificial intelligence feasible and/or suitable in agricultural farming in Jordan?
+**My research question:** In what ways is the application of artificial intelligence feasible and/or suitable in agricultural farming in Jordan?
 
-This Higher Project Qualification examines technical infrastructure, economic viability, scalability, sustainability, and the local context in Jordan. It also considers international case studies and the limitations of applying agricultural AI in a developing-country context.
+For this Higher Project Qualification, I explored whether agricultural AI could work in Jordan in practice, not just in theory. I looked at the technology and infrastructure needed, affordability, scale, sustainability, and the differences between Jordan and countries where agricultural AI is already being used.
 
-- [Read the dissertation](HPQ_Dissertation.docx)
-
-The original dissertation is supplied in its submitted document format.
+[Read my dissertation](HPQ_Dissertation.docx)

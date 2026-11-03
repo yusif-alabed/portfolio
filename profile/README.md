@@ -1,13 +1,11 @@
-# Profile
+# About Me
 
-The current [curriculum vitae](Yusif_Alabed_CV.pdf) provides a concise overview of academic work, technical interests, leadership, activities, and awards.
+My [CV is available here](Yusif_Alabed_CV.pdf). It covers my academic background, research, engineering activities, leadership, community work, and awards.
 
-For direct supporting evidence, start with:
+If you would like to see the work itself rather than just read about it, these are the best places to start:
 
-- [Exploratory ESRD clinical-data analysis](../research/esrd-clinical-analysis/)
-- [AI in Jordanian agriculture HPQ](../academic-work/hpq-agritech-jordan/)
-- [Project Strata - 4x4 in Schools](../projects/project-strata-4x4/)
-- [Swarm robotics CAD prototype](../projects/swarm-robotics/)
-- [Breakthrough Junior Challenge video](../media/breakthrough-junior-challenge/)
-
-The portfolio is updated when additional project material is prepared for public release.
+- [My ESRD research](../research/esrd-clinical-analysis/)
+- [My HPQ on AI in Jordanian agriculture](../academic-work/hpq-agritech-jordan/)
+- [Project Strata and the 4x4 challenge](../projects/project-strata-4x4/)
+- [My swarm robotics CAD design](../projects/swarm-robotics/)
+- [My Breakthrough Junior Challenge video](../media/breakthrough-junior-challenge/)

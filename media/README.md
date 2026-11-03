@@ -1,7 +1,5 @@
 # Media and Public Presentations
 
-| Item | Format | Link |
-| --- | --- | --- |
-| Breakthrough Junior Challenge - *Who leads a swarm of robots?* | Science-communication video | [Watch on YouTube](breakthrough-junior-challenge/) |
+This section contains work I have shared in a format that is easier to watch outside GitHub.
 
-Video is hosted externally where that provides a better viewing experience than a repository download.
+- [My Breakthrough Junior Challenge video: *Who leads a swarm of robots?*](breakthrough-junior-challenge/)

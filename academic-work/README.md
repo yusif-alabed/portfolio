@@ -4,4 +4,4 @@
 
 [AI in Jordanian agriculture](hpq-agritech-jordan/)
 
-An independent dissertation examining the feasibility and suitability of artificial intelligence in Jordanian agriculture, including international case studies, infrastructure constraints, and local context.
+For my HPQ, I looked at whether AI could be realistically useful in Jordanian agriculture. I considered international examples as well as the infrastructure, cost, sustainability, and local challenges that would affect how well those ideas could work in Jordan.
