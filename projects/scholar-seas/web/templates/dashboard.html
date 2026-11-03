@@ -1,0 +1,187 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Parent Dashboard | Scholar Seas
+{% endblock %}
+
+{% block content %}
+
+<div class="panel">
+    <h2>Welcome, {{ username }}</h2>
+
+    <p>
+        Link a student account, then select their voyage
+        to view learning progress.
+    </p>
+
+    {% if request.args.get("message") %}
+        <p class="message">
+            {{ request.args.get("message") }}
+        </p>
+    {% endif %}
+
+    <form
+        method="post"
+        action="{{ url_for('link_student') }}"
+    >
+        <label for="student_username">
+            Student username
+        </label>
+
+        <input
+            id="student_username"
+            name="student_username"
+            type="text"
+            required
+        >
+
+        <div class="button-row">
+            <button type="submit">
+                Link Student
+            </button>
+        </div>
+    </form>
+</div>
+
+<section style="margin-top: 35px;">
+    <h2>Linked Voyagers</h2>
+
+    {% if children %}
+        <div class="grid">
+            {% for child in children %}
+                <article class="card">
+                    <h3>
+                        {{ child["display_name"] }}
+                    </h3>
+
+                    <p>
+                        Grade: {{ child["grade"] }}
+                    </p>
+
+                    <p>
+                        Level: {{ child["level"] }}
+                    </p>
+
+                    <p>
+                        XP: {{ child["xp"] }}
+                    </p>
+
+                    <p>
+                        Coins: {{ child["coins"] }}
+                    </p>
+
+                    <p>
+                        Played today:
+                        {{
+                            playtime[
+                                child["student_id"]
+                            ]
+                        }}
+                        minutes
+                    </p>
+
+                    <div class="button-row">
+                        <a
+                            class="button"
+                            href="{{ url_for(
+                                'dashboard',
+                                student_id=child['student_id']
+                            ) }}"
+                        >
+                            View Progress
+                        </a>
+
+                        <a
+                            class="button"
+                            href="{{ url_for(
+                                'student_settings',
+                                student_id=child['student_id']
+                            ) }}"
+                        >
+                            Settings
+                        </a>
+                    </div>
+                </article>
+            {% endfor %}
+        </div>
+
+    {% else %}
+        <div class="card">
+            <p>
+                No students are linked yet. Enter the
+                student's game username above.
+            </p>
+        </div>
+    {% endif %}
+</section>
+
+{% if selected_student %}
+    <section
+        class="panel"
+        style="margin-top: 35px;"
+    >
+        <h2>
+            {{ selected_student["display_name"] }}'s
+            Progress
+        </h2>
+
+        {% if accuracy %}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Questions</th>
+                        <th>Correct</th>
+                        <th>Accuracy</th>
+                        <th>Average Time</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for row in accuracy %}
+                        <tr>
+                            <td>
+                                {{ row["topic"]|title }}
+                            </td>
+
+                            <td>
+                                {{ row["total"] }}
+                            </td>
+
+                            <td>
+                                {{ row["correct"] }}
+                            </td>
+
+                            <td>
+                                {{
+                                    (
+                                        row["correct"]
+                                        / row["total"]
+                                        * 100
+                                    )|round(1)
+                                }}%
+                            </td>
+
+                            <td>
+                                {{
+                                    (
+                                        row["average_time"]
+                                        / 1000
+                                    )|round(1)
+                                }}
+                                seconds
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+        {% else %}
+            <p>
+                No question results have been recorded yet.
+            </p>
+        {% endif %}
+    </section>
+{% endif %}
+
+{% endblock %}

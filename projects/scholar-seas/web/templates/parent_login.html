@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Parent Login | Scholar Seas
+{% endblock %}
+
+{% block content %}
+<div class="panel" style="max-width: 540px; margin: auto;">
+    <h2>Parent Harbour</h2>
+
+    <p>
+        Log in to view your child's learning voyage,
+        rewards, and progress.
+    </p>
+
+    <p class="message">{{ message }}</p>
+
+    <form method="post">
+        <label for="username">Username</label>
+        <input
+            id="username"
+            name="username"
+            type="text"
+            required
+        >
+
+        <label for="password">Password</label>
+        <input
+            id="password"
+            name="password"
+            type="password"
+            required
+        >
+
+        <div class="button-row">
+            <button
+                type="submit"
+                name="action"
+                value="login"
+            >
+                Log in
+            </button>
+
+            <button
+                type="submit"
+                name="action"
+                value="register"
+            >
+                Register parent
+            </button>
+        </div>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,15 @@
+# Local runtime data
+scholar_seas.db
+*.db
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+
+# Game media will be added separately if I decide to publish it.
+game/assets/

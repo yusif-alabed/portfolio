@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Playtime Settings | Scholar Seas
+{% endblock %}
+
+{% block content %}
+<div class="panel" style="max-width: 650px; margin: auto;">
+    <h2>
+        {{ student["display_name"] }}'s Playtime Settings
+    </h2>
+
+    <p>
+        Set the maximum number of minutes allowed each day.
+        Enter 0 to block play for that day type.
+    </p>
+
+    <p class="message">{{ message }}</p>
+
+    <form method="post">
+        <input type="hidden" name="action" value="save_limits">
+        <label for="weekday_limit">
+            Weekday limit in minutes
+        </label>
+
+        <input
+            id="weekday_limit"
+            name="weekday_limit"
+            type="number"
+            min="0"
+            value="{{ settings['weekday_limit_min'] }}"
+            required
+        >
+
+        <label for="weekend_limit">
+            Weekend limit in minutes
+        </label>
+
+        <input
+            id="weekend_limit"
+            name="weekend_limit"
+            type="number"
+            min="0"
+            value="{{ settings['weekend_limit_min'] }}"
+            required
+        >
+
+        <div class="button-row">
+            <button type="submit">
+                Save Settings
+            </button>
+
+            <a
+                class="button"
+                href="{{ url_for(
+                    'dashboard',
+                    student_id=student['student_id']
+                ) }}"
+            >
+                Back to Dashboard
+            </a>
+        </div>
+    </form>
+</div>
+
+<div
+    class="panel"
+    style="max-width: 650px; margin: 35px auto 0;"
+>
+    <h2>Reset Student Password</h2>
+
+    <p>
+        Use this when {{ student["display_name"] }} selects
+        “Forgot password?” in the game.
+    </p>
+
+    <form method="post">
+        <input type="hidden" name="action" value="reset_password">
+
+        <label for="new_password">New password</label>
+
+        <input
+            id="new_password"
+            name="new_password"
+            type="password"
+            minlength="6"
+            required
+        >
+
+        <div class="button-row">
+            <button type="submit">Reset Password</button>
+        </div>
+    </form>
+</div>
+{% endblock %}
