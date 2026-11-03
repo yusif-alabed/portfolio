@@ -1,12 +1,10 @@
 # Projects and Technical Work
 
-This section will collect public, reproducible demonstrations of work referenced in the CV, including engineering, robotics, programming, and design projects.
+This section contains practical engineering and design work with files that can be opened, inspected, or reused.
 
-Current demonstrable material is linked from the research and academic-work sections.
+| Project | Focus | Included evidence |
+| --- | --- | --- |
+| [Project Strata - 4x4 in Schools](project-strata-4x4/) | Autonomous vehicle engineering | Vehicle and workshop photos; public team link |
+| [Swarm robotics CAD prototype](swarm-robotics/) | Parametric robotics design | OpenSCAD source and exported STL |
 
-## Current projects
-
-- [Swarm robotics CAD prototype](swarm-robotics/)
-- [Project Strata — 4x4 in Schools](project-strata-4x4/)
-
-Additional projects will be added only with their code, design files, photos, or other evidence—not merely a claim.
+Projects are included only where supporting code, design files, photos, or other inspectable evidence is available.

@@ -1,13 +1,13 @@
-# Curriculum Vitae
+# Profile
 
-The current CV is available as [PDF](Yusif_Alabed_CV.pdf).
+The current [curriculum vitae](Yusif_Alabed_CV.pdf) provides a concise overview of academic work, technical interests, leadership, activities, and awards.
 
-Selected areas represented elsewhere in this repository include:
+For direct supporting evidence, start with:
 
-- Research in renal-disease data analysis
-- An HPQ on the feasibility of AI in Jordanian agriculture
-- Engineering and robotics interests, including autonomous-vehicle and hardware-society work
-- Computer-science work in Python and data analysis
-- A Breakthrough Junior Challenge submission
+- [Exploratory ESRD clinical-data analysis](../research/esrd-clinical-analysis/)
+- [AI in Jordanian agriculture HPQ](../academic-work/hpq-agritech-jordan/)
+- [Project Strata - 4x4 in Schools](../projects/project-strata-4x4/)
+- [Swarm robotics CAD prototype](../projects/swarm-robotics/)
+- [Breakthrough Junior Challenge video](../media/breakthrough-junior-challenge/)
 
-This portfolio is updated as additional verifiable project material is prepared for public release.
+The portfolio is updated when additional project material is prepared for public release.
