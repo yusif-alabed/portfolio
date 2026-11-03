@@ -7,3 +7,4 @@ These are practical engineering and design projects that I can show through file
 | [Project Strata - 4x4 in Schools](project-strata-4x4/) | Designing, building, and programming an autonomous vehicle | Vehicle and workshop photos; public team link |
 | [Swarm robotics CAD prototype](swarm-robotics/) | Exploring small-scale robotics design | OpenSCAD source and exported STL |
 | [Scholar Seas - CS NEA](scholar-seas/) | Developing an educational Python game and Flask parent dashboard | Source code for the work in progress |
+| [LastBite - InnovAIte Hackathon](lastbite-hackathon/) | Developing a food-waste reduction concept with my team | Original team presentation |
